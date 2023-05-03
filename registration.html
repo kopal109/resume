@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="thank you.html" method="get">
+        <table width="900px" align="center">
+            <tr align="center">
+                <td colspan="2">
+                    <h2>
+                        Register for My Event
+                    </h2>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="fullname">Enter Your Full Name:</label>
+                </td>
+                <td>
+                    <input type="text" id="Fullname" size="25" maxlength="25" required placeholder="Fullname"
+                        name="Fullname">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Username">Select a Username:</label>
+                </td>
+                <td>
+                    <input type="text" id="Username" size="25" maxlength="25" required placeholder="Username"
+                        name="Username">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="psw">Enter Your Password:</label>
+                </td>
+                <td>
+                    <input type="password" size="25" maxlength="10" required placeholder="password" name="psw">
+                </td>
+                </td>
+            </tr>
+            <tr>
+                <td> <label for="Female">select Your Gender:</label></td>
+                <td>
+                    <input type="radio" name="gender" id="Female" value="female">female
+                    <input type="radio" name="gender" id="male" value="male">male
+                </td>
+            </tr>
+            <tr>
+                <td><label for="mailer1">Check For Our Mailers</label></td>
+                <td>
+                    <input type="checkbox" name="mailer1" id="mailer1" value="fashion" checked>fashion magazine
+                    <input type="checkbox" name="mailer2" id="mailer2" value="news">latest news
+                </td>
+            </tr>
+            <tr>
+                <td><label for="DOB">Enter Your Date of Birth</label>
+                </td>
+                <td><input type="date" name="DOB" id="DOB"></td>
+            </tr>
+            <tr>
+                <td><label for="photo">Upload your Photo:</label></td>
+                <td><input type="file" name="photo" id="photo"></td>
+            </tr>
+            <tr>
+                <td><label for="country">Select your country:</label></td>
+                <td>
+                    <select name="country" id="country">
+                        <option value="Argentina">Argentina</option>
+                        <option value="Brazil">Brazil</option>
+                        <option value="Cuba">Cuba</option>
+                        <option value="Denmark">Denmark</option>
+                        <option value="India" selected>India</option>
+                        <option value="USA">USA</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Address">Enter your Address:</label></td>
+                <td>
+                    <textarea name="address" id="address" cols="30" rows="3"
+                        placeholder="Enter your Address Here"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="browser">Choose your browser from the list:</label>
+                </td>
+                <td>
+                    <input list="browsers" name="browser" id="browser">
+
+                    <datalist id="browsers">
+                        <option value="Edge">
+                        <option value="Firefox">
+                        <option value="Chrome">
+                        <option value="Opera">
+                        <option value="Safari">
+                    </datalist>
+                </td>
+            </tr>
+
+            <tr>
+                <td><input type="submit">submit my form</td>
+                <td><input type="reset">reset the form</td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

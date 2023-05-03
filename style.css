@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior:smooth;
+}
+#top{
+position: fixed;
+right: 30px;
+bottom: 30px;
+}
+.hr1{
+    border: 3px solid rgb(235, 123, 123);
+}
+.hr2{
+    border:3px solid rgb(197, 247, 148)
+}
+.hr2{
+    border:3px solid rgb(29, 102, 192)
+}
+.hr2{
+    border:3px solid rgb(246, 8, 40)
+}
+.hr2{
+    border:3px solid rgb(230, 246, 8)
+}
+.hr2{
+    border:3px solid rgb(8, 246, 234)
+}
+body{
+    background-color: rgb(254, 251, 236);
+    font-family: 'Chivi Mono', monospace;
+}
+/* Navigation Bar*/
+#navbar{
+    display: flex;
+    background-color: black;
+    color: white;
+    /* vertical alignment in middle */
+    align-items: center;
+    font-family: 'Chivi Mono', monospace;
+}
+#logo{
+    width: 20%;
+    text-align: center;
+}
+#logoimage{
+    margin: 5px
+    padding: 2px;
+    height: 70px;
+    border-radius: 40px;
+
+}
+#links{
+    display: flex;
+    list-style-type: none;
+}
+#navlinks li{
+    padding: 10px;
+}
+#navlinks a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Chivi Mono', monospace;
+    padding: 9px;
+    border-radius: 15px;
+}
+#navlinks a:hover{
+    color: brown;
+    background-color: azure;
+    transition: 1s;
+}
+#search{
+    width: 20%;
+    /* horizontal center */
+    text-align: center;
+    /* vertical middle*/
+    align-items: center;
+}
+#searchbox{
+    width: 110px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: beige;
+    padding: 5px;
+}
+/*  Navigation bar ends here */
+
+/* Welcome section starts */
+#welcome{
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+/* About Us Starts */
+#aboutus{
+    height: 400px;
+}
+/* Contact us section stars */
+#contactus{
+    height: 400px;
+}
+/* Social Media Stars Here */
+#social{
+    height: 400px;
+}
